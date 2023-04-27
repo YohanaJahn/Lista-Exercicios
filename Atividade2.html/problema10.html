@@ -1,0 +1,19 @@
+<meta charset="UTF-8">
+<script>
+    /*Peça para o usuário informar uma data em dias com horas, minutos e segundos e retorne a data em segundos.*/
+
+    const dias = Number (prompt ("Insira a quantidade de dias"));
+    const horas = Number(prompt ("Insira a quantidade de horas"));
+    const minutos = Number(prompt ("Insira a quantidade de minutos"));
+    const segundos = Number(prompt("Insira a quantidade de segundos"));
+
+    const diasRe = dias * 86400
+    const horasRe = horas * 3600
+    const minutosRe = minutos * 60
+
+    const solucao = diasRe + horasRe + minutosRe + segundos 
+    
+    alert (`Será ${solucao} segundos `);
+</script>
+
+
